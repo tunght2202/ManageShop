@@ -16,8 +16,13 @@
    - **(ManageCustomers)** 
    - **(ManageOrders)**
 
-## 🔧 Công nghệ sử dụng  
+## Công nghệ sử dụng  
 - **Ngôn ngữ**: C#  
 - **Giao diện**: WPF (Windows Presentation Foundation)  
 - **Cơ sở dữ liệu**: SQL Server / MySQL  
 
+## 🖼️ Hình ảnh demo
+
+### 1. Giao diện thu ngân
+![Cashier UI](https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/RegisterEmployee.png)  
+*Chức năng: Tạo tài khoản cho nhân viên thu ngân mới.*
