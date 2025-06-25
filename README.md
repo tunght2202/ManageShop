@@ -8,14 +8,12 @@
 **ManageShop** là ứng dụng quản lý siêu thị được phát triển bằng **WPF (.NET)**, hỗ trợ 2 phân quyền chính:  
 
 1. **Thu ngân (Cashier)**  
-*Tài khoản thu : admin*
-*Mật khẩu: 1234*
+*Tài khoản thu : admin / Mật khẩu: 1234*
    - Xử lý bán hàng, tạo đơn hàng.  
    - Tính tiền.  
 
 2. **Quản lý (Admin)**  
-*Tài khoản admin: sale*
-*Mật khẩu: 1234*
+*Tài khoản admin: sale / Mật khẩu: 1234*
    - **(ManageProducts)**  
    - **(ManageCustomers)** 
    - **(ManageOrders)**
