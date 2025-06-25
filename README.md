@@ -45,6 +45,14 @@
 #### 2.1. Đăng nhập với vai trò quản trị viên
 <div align="center">
   <img src="https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/AdminLogin.png" width="600">
-  <p><i>Ảnh 2: Login with admin role</i></p>
+  <p><i>Ảnh 2.1: Login with admin role</i></p>
 </div>
 *Chức năng: Đăng nhập với vai trò trò quản trị viên*
+
+
+#### 2.2. Đăng nhập với vai trò thu ngân
+<div align="center">
+  <img src="https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/EmployeeLogin.png" width="600">
+  <p><i>Ảnh 2.2: Login with employee role</i></p>
+</div>
+*Chức năng: Đăng nhập với vai trò trò nhân viên thu ngân*
