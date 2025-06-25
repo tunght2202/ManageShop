@@ -75,7 +75,7 @@
 
 ### 5. Quản lý khách hàng. *(admin role)*
 <div align="center">
-  <img src="https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/ProductManagement.png" width="600">
+  <img src="https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/CustomerManage.png" width="600">
   <p><i>Ảnh 5: ManageCustomers </i></p>
 </div>
-*Chức năng: Quản trị viên quản lý sản phẩm trong siêu thị*
+*Chức năng: Quản trị viên quản lý khách hàng trong siêu thị*
