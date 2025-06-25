@@ -79,3 +79,27 @@
   <p><i>Ảnh 5: ManageCustomers </i></p>
 </div>
 *Chức năng: Quản trị viên quản lý khách hàng trong siêu thị*
+
+
+### 6. Quản lý đơn hàng. *(admin role)*
+<div align="center">
+  <img src="https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/OrderManagement.png" width="600">
+  <p><i>Ảnh 6: ManageOrders </i></p>
+</div>
+*Chức năng: Quản trị viên quản lý đơn hàng trong siêu thị*
+
+
+### 7. Màn hình bán hàng. *(Cashier role)*
+<div align="center">
+  <img src="https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/SaleSupermartket.png" width="600">
+  <p><i>Ảnh 7: Seller </i></p>
+</div>
+*Chức năng: Nhân viên thu ngân thêm các sản phẩm vào đơn hàng*
+
+
+### 8. Màn hình đơn hàng. *(Cashier role)*
+<div align="center">
+  <img src="https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/Order.png" width="600">
+  <p><i>Ảnh 7: Order </i></p>
+</div>
+*Chức năng: Nhân viên thu ngân thêm thông tin khách hàng và tạo đơn hàng*
