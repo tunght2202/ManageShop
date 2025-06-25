@@ -45,6 +45,37 @@
 #### 2.1. Đăng nhập với vai trò quản trị viên
 <div align="center">
   <img src="https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/AdminLogin.png" width="600">
-  <p><i>Ảnh 2: Login with admin role</i></p>
+  <p><i>Ảnh 2.1: Login with admin role</i></p>
 </div>
 *Chức năng: Đăng nhập với vai trò trò quản trị viên*
+
+#### 2.2. Đăng nhập với vai trò thu ngân
+<div align="center">
+  <img src="https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/EmployeeLogin.png" width="600">
+  <p><i>Ảnh 2.2: Login with employee role</i></p>
+</div>
+*Chức năng: Đăng nhập với vai trò trò nhân viên thu ngân*
+
+
+### 3. Bảng lựa chọn. *(admin role)*
+<div align="center">
+  <img src="https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/Dashboard.png" width="600">
+  <p><i>Ảnh 3: Dashboard </i></p>
+</div>
+*Chức năng: Cho phép người dùng lựa chọn các chức năng như: quản lý sản phẩm, quản lý khách hàng và quản lý đơn hàng*
+
+
+### 4. Quản lý sản phẩm. *(admin role)*
+<div align="center">
+  <img src="https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/ProductManagement.png" width="600">
+  <p><i>Ảnh 4: ManageProducts </i></p>
+</div>
+*Chức năng: Quản trị viên quản lý sản phẩm trong siêu thị*
+
+
+### 5. Quản lý khách hàng. *(admin role)*
+<div align="center">
+  <img src="https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/ProductManagement.png" width="600">
+  <p><i>Ảnh 5: ManageCustomers </i></p>
+</div>
+*Chức năng: Quản trị viên quản lý sản phẩm trong siêu thị*
