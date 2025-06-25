@@ -21,8 +21,10 @@
 - **Giao diện**: WPF (Windows Presentation Foundation)  
 - **Cơ sở dữ liệu**: SQL Server / MySQL  
 
-## 🖼️ Hình ảnh demo
+## Hình ảnh demo
 
 ### 1. Giao diện thu ngân
-![Cashier UI](https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/RegisterEmployee.png)  
-*Chức năng: Tạo tài khoản cho nhân viên thu ngân mới.*
+<div align="center">
+  <img src="https://github.com/tunght2202/ManageShop/blob/master/ManagerShopImage/RegisterEmployee.png" width="300">
+  <p><i>Chức năng: Tạo tài khoản cho nhân viên thu ngân mới.</i></p>
+</div>
