@@ -14,7 +14,8 @@
    - Tính tiền.  
 
 2. **Quản lý (Admin)**  
-*Tài khoản admin: sale / Mật khẩu: 1234*
+*Tài khoản thu ngân:* `sale`  
+*Mật khẩu:* `1234`
    - **(ManageProducts)**  
    - **(ManageCustomers)** 
    - **(ManageOrders)**
