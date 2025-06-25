@@ -1,0 +1,95 @@
+﻿<Window x:Class="ManageShop.ManageProducts"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ManageShop"
+      mc:Ignorable="d" 
+      Title="Manage Products" Height="750" Width="1200">
+
+    <Grid Background="#E3F2FD">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Tiêu đề -->
+        <StackPanel Grid.Row="0" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,20,0,20">
+            <TextBlock Text="ManageShop" FontSize="36" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,20,0,10" Foreground="#1565C0"/>
+            <TextBlock Text="Product Management" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10,0,10" Foreground="#1565C0"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Search Box and Label -->
+            <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20">
+                <Label Content="Search:" VerticalAlignment="Center" FontSize="20" Margin="0,0,10,0" Foreground="#0D47A1"/>
+                <TextBox Name="searchTextBox" Width="300" Height="30" FontSize="16" TextChanged="SearchTextBox_TextChanged" Padding="5" BorderBrush="#0D47A1"/>
+            </StackPanel>
+
+            <!-- Category ComboBox and Label -->
+            <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20">
+                <Label Content="Category:" VerticalAlignment="Center" FontSize="20" Margin="0,0,10,0" Foreground="#0D47A1"/>
+                <ComboBox Name="CategoryComboBox" Width="300" Height="30" FontSize="16" SelectionChanged="CategoryComboBox_SelectionChanged" Padding="5"/>
+            </StackPanel>
+        </Grid>
+
+
+
+        <!-- Danh sách sản phẩm và các điều khiển -->
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Danh sách sản phẩm -->
+            <ListView Grid.Column="0" Margin="5" Name="productsListView" SelectionChanged="ProductsListView_SelectionChanged" Background="White" BorderBrush="#1565C0" BorderThickness="2">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Product Name" DisplayMemberBinding="{Binding ProductName}" Width="200"/>
+                        <GridViewColumn Header="Category Name" DisplayMemberBinding="{Binding Category.CategoryName}" Width="100"/>
+                        <GridViewColumn Header="Price" DisplayMemberBinding="{Binding Price, StringFormat=C}" Width="100"/>
+                        <GridViewColumn Header="Stock" DisplayMemberBinding="{Binding StockQuantity}" Width="100"/>
+                        <GridViewColumn Header="Company" DisplayMemberBinding="{Binding Company}" Width="150"/>
+                        <GridViewColumn Header="Country" DisplayMemberBinding="{Binding Country}" Width="150"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+            <!-- Các điều khiển nhập liệu -->
+            <StackPanel Grid.Column="1" Margin="5">
+                <TextBlock Text="Product Name:" Margin="0,0,0,5" FontSize="16" Foreground="#0D47A1"/>
+                <TextBox Name="productNameTextBox" Margin="0,0,0,15" Width="300" FontSize="16" Padding="5"/>
+
+                <TextBlock Text="Category:" Margin="0,0,0,5" FontSize="16" Foreground="#0D47A1"/>
+                <ComboBox Name="productCategoryCombox" Margin="0,0,0,15" Width="300" FontSize="16" Padding="5"/>
+
+                <TextBlock Text="Price:" Margin="0,0,0,5" FontSize="16" Foreground="#0D47A1"/>
+                <TextBox Name="productPriceTextBox" Margin="0,0,0,15" Width="300" FontSize="16" Padding="5"/>
+
+                <TextBlock Text="Stock:" Margin="0,0,0,5" FontSize="16" Foreground="#0D47A1"/>
+                <TextBox Name="productStockQuantityTextBox" Margin="0,0,0,20" Width="300" FontSize="16" Padding="5"/>
+
+                <TextBlock Text="Company:" Margin="0,0,0,5" FontSize="16" Foreground="#0D47A1"/>
+                <TextBox Name="productCompanyTextBox" Margin="0,0,0,15" Width="300" FontSize="16" Padding="5"/>
+
+                <TextBlock Text="Country:" Margin="0,0,0,5" FontSize="16" Foreground="#0D47A1"/>
+                <TextBox Name="productCountryTextBox" Margin="0,0,0,15" Width="300" FontSize="16" Padding="5"/>
+
+                <!-- Các nút điều khiển -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,0">
+                    <Button Content="Add" Width="80" Margin="10" FontSize="16" Background="#0D47A1" Foreground="White" Click="AddButton_Click"/>
+                    <Button Content="Update" Width="80" Margin="10" FontSize="16" Background="#0D47A1" Foreground="White" Click="UpdateButton_Click"/>
+                    <Button Content="Delete" Width="80" Margin="10" FontSize="16" Background="#0D47A1" Foreground="White" Click="DeleteButton_Click"/>
+                    <Button Content="Clear" Width="80" Margin="10" FontSize="16" Background="#0D47A1" Foreground="White" Click="ClearButton_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
